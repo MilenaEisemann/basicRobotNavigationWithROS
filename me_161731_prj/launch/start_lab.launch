@@ -1,0 +1,8 @@
+<launch>
+  <!-- My Package launch file -->
+  <node pkg="me_161731_prj" type="robot_lab.py" name="subscriber" output="screen">
+  </node>
+
+  <include file="$(find goal_publisher)/launch/goal_publisher.launch"/>
+
+</launch>
